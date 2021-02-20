@@ -1,5 +1,5 @@
 void call() {
-  docker.image("alpine".inside {
+  docker.image("alpine").inside {
     sh "echo 'Hello, World!'"
   }
 }
